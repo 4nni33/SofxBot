@@ -12,19 +12,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['59897463355', 'ZeroBot', true],  
-  ['59897463355', 'Gabi Owner', true],
-  ['59897463355', 'Gabi Owner 2', true],
-  ['59897463355', 'ZeroBot', true],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355']
+  ['59892959423', 'SofxBot', true],
 ]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
