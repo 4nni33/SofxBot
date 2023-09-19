@@ -117,7 +117,7 @@ version
 /*msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['GeriPium','Edge','107.0.1418.26'],
+browser: ['Sofx','Edge','107.0.1418.26'],
 version   
 }*/
 
@@ -143,7 +143,7 @@ return false })}
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./GeriPium")
+let directorio = readdirSync("./SofxBot")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') || file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-')
 })
@@ -178,7 +178,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 function purgeOldFiles() {
-const directories = ['./GeriPium/', './GataJadiBot/']
+const directories = ['./SofxBot/', './GataJadiBot/']
 const oneHourAgo = Date.now() - (1000 * 60 * 30) //30 min 
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
