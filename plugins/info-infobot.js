@@ -53,96 +53,96 @@ let old = performance.now()
   let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
 
-let info = `╭━━━━[ ${gt} ]━━━━━⬣
-┃➥ *CREADOR | CREATOR*
-┃ღ *Zero*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTACTO | CONTACT* 
-┃ღ *${ig}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSIÓN ACTUAL | VERSION*
-┃ღ ${vs}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIJO | PREFIX*
-┃ღ *${usedPrefix}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
-┃ღ *${chats.length - groups.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS | GROUP CHAT*
-┃ღ *${groups.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
-┃ღ *${chats.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ACTIVIDAD | ACTIVITY*
-┃ღ *${uptime}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *USUARIOS | USERS*
-┃ღ *${totalreg}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDAD | SPEED*
-┃ღ  *${speed}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
-┃ღ *${totaljadibot.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *AUTOREAD*
-┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *RESTRICT* 
-┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
-┃
+let info = `╭┈┈  ৎ 👑 ׂ ⬫[ ${gt} ] ָ࣪  ۰ . ¡! 
+│▹ *CREADOR | CREATOR*
+│▹ *Zero*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CONTACTO | CONTACT* 
+│▹ *${ig}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *VERSIÓN ACTUAL | VERSION*
+│▹ ${vs}
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *PREFIJO | PREFIX*
+│▹ *${usedPrefix}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS PRIVADOS | PRIVATE CHAT*
+│▹ *${chats.length - groups.length}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS DE GRUPOS | GROUP CHAT*
+│▹ *${groups.length}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS EN TOTAL | TOTAL CHATS*
+│▹ *${chats.length}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *ACTIVIDAD | ACTIVITY*
+│▹ *${uptime}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *USUARIOS | USERS*
+│▹ *${totalreg}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *VELOCIDAD | SPEED*
+│▹  *${speed}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
+│▹ *${totaljadibot.length}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *AUTOREAD*
+│▹ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *RESTRICT* 
+│▹ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
+│
 ╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`
 await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 /*let info = `
-╭━━━━[ ${gt} ]━━━━━⬣
-┃
-┃➥ *CREADORA | CREATOR*
-┃ღ *GeriPium*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTACTO | CONTACT* 
-┃ღ *${ig}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSIÓN ACTUAL | VERSION*
-┃ღ ${vs}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIJO | PREFIX*
-┃ღ *${usedPrefix}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
-┃ღ *${chats.length - groups.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS | GROUP CHAT*
-┃ღ *${groups.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
-┃ღ *${chats.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ACTIVIDAD | ACTIVITY*
-┃ღ *${uptime}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *USUARIOS | USERS*
-┃ღ *${totalreg}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDAD | SPEED*
-┃ღ  *${speed}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
-┃ღ *${totaljadibot.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BATERIA | DRUMS*
-┃ღ *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *AUTOREAD*
-┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *RESTRICT* 
-┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
-┃
+╭┈┈  ৎ 👑 ׂ ⬫[ ${gt} ] ָ࣪  ۰ . ¡! 
+│
+│▹ *CREADORA | CREATOR*
+│▹ *Sofiii*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CONTACTO | CONTACT* 
+│▹ *${ig}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *VERSIÓN ACTUAL | VERSION*
+│▹ ${vs}
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *PREFIJO | PREFIX*
+│▹ *${usedPrefix}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS PRIVADOS | PRIVATE CHAT*
+│▹ *${chats.length - groups.length}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS DE GRUPOS | GROUP CHAT*
+│▹ *${groups.length}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *CHATS EN TOTAL | TOTAL CHATS*
+│▹ *${chats.length}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *ACTIVIDAD | ACTIVITY*
+│▹ *${uptime}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *USUARIOS | USERS*
+│▹ *${totalreg}* 
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *VELOCIDAD | SPEED*
+│▹  *${speed}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
+│▹ *${totaljadibot.length}*
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *BATERIA | DRUMS*
+│▹ *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *AUTOREAD*
+│▹ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
+│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+│▹ *RESTRICT* 
+│▹ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
+│
 ╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`.trim()
 
-conn.sendHydrated(m.chat, info, wm, pp, 'https://www.instagram.com/venta.bots.gerixryu', 'GeriPium', null, null, [
+conn.sendHydrated(m.chat, info, wm, pp, 'https://www.instagram.com/lunita_2art', 'SofxBot', null, null, [
 ['𝙑𝙚𝙧 𝙂𝙧𝙪𝙥𝙤𝙨 | 𝙎𝙚𝙚 𝙂𝙧𝙤𝙪𝙥𝙨', '#grupolista'],
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']
