@@ -2,7 +2,7 @@ import { sticker } from '../lib/sticker.js'
 let handler = async(m, { conn }) => {
 if (!db.data.chats[m.chat].stickers && m.isGroup) throw 0
 
-let nombre = 'GeriPium'
+let nombre = 'SofxBot'
 let nombre2 = '@venta.bots.gerixryu' 
  
 const s = [
