@@ -42,7 +42,7 @@ let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎
 *Por favor, no ingresar con números de Bots, y mantener el respeto.*\n
 *Please, do not enter with Bot numbers, and maintain respect.*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
-/*conn.sendHydrated(m.chat, str, `GeriPium Asistencia\n${asistencia}\n\n` + wm, media, 'https://www.instagram.com/venta.bots.gerixryu', 'GeriPium', null, null, [
+/*conn.sendHydrated(m.chat, str, `SofxBot Asistencia\n${asistencia}\n\n` + wm, media, 'https://www.instagram.com/lunita_2art', 'SofxBot', null, null, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
