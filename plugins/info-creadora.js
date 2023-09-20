@@ -23,11 +23,9 @@ let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').
 let teksbio = `TheZero
 *Wa.me/59897463355*
 
-Zero Owner 1	
-*Wa.me/59897463355*
+SofxBot OWNER
+*wa.me/59892959423
 
-Zero Owner 2
-*Wa.me/59897463355*
 *---------------------*
 
 THEZERO CONTACTO
@@ -56,11 +54,11 @@ const sections = [
 const listMessage = {
   text: teks,
   footer: null,
-  title: `╭━━━✦ *OWNER ✦━━━━⬣
-┃დ HOLA 👋 ${name}
-┃≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋
-┃${wm}
-╰━━━━━✦ *${vs}* ✦━━━━⬣`,
+  title: `╭┈┈  ৎ 👑 *OWNER*  ָ࣪  ۰ . ¡! 
+│ HOLA 👋 ${name}
+│---------------------
+│${wm}
+╰──────── *${vs}*───────๑🫧๑,
   buttonText: "HAGA CLICK AQUI",
   sections
 }
@@ -71,7 +69,7 @@ const listMessage = {
         switch (type) {
           case 'nombre':
           await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : ${gt} 🐈`, fkontak,  m)
-         // conn.reply(m.chat, "Nombre del bot : GeriPium", m, { contextInfo: { mentionedJid: [nowner] }})
+         // conn.reply(m.chat, "Nombre del bot : SofxBot", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
              await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', teksbio, fkontak)
