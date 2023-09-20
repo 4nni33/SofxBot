@@ -3,7 +3,7 @@ let handler = async(m, { conn }) => {
 if (!db.data.chats[m.chat].stickers && m.isGroup) throw 0
 
 let nombre = 'SofxBot'
-let nombre2 = '@venta.bots.gerixryu' 
+let nombre2 = '@lunita_2art' 
  
 const s = [
 'https://media1.giphy.com/media/2dQ3FMaMFccpi/giphy.gif?cid=ecf05e476azkdvh2cu7b567gbpgyc6q7qd38pklqp12npygv&rid=giphy.gif&ct=g',
