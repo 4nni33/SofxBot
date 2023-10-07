@@ -80,7 +80,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ㅤﻬ *Registrados »* ${rtotalreg}/${totalreg}
 ㅤﻬ *${lenguajeGB['smsTime']()}* ▹ _${time}_    
 ㅤﻬ *${lenguajeGB['smsUptime']()}* ▹ _${uptime}_ 
-ㅤﻬ *${lenguajeGB['smsVersion']()}* ▹ _${vs}_
 ㅤﻬ *${lenguajeGB['smsMode']()} ▹* _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ㅤﻬ *${lenguajeGB['smsBanChats']()}* ▹ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ㅤﻬ *${lenguajeGB['smsBanUsers']()}* ▹ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
